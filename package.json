@@ -1,0 +1,18 @@
+{
+  "name": "fiches-parametrage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Application de gestion des fiches de paramétrage des moules",
+  "scripts": {
+    "android:add": "cap add android",
+    "android:sync": "cap sync android",
+    "android:open": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.6.0",
+    "@capacitor/core": "^7.6.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.6.0"
+  }
+}
